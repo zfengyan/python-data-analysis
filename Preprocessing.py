@@ -13,20 +13,20 @@ class Preprocessing:
     # src -> all python source files
     # src/data -> data folder
     @classmethod
-    def load_data_csv(cls, filename:str) -> pd.DataFrame:
-        print("loading dataset ...")
+    def load_data_csv(cls, filename:str, param_delimiter) -> pd.DataFrame:
+        print("-- loading dataset ...")
         # get file path - this should work on Windows / linux / Mac
         currentdir = os.path.join(os.path.dirname(__file__))
         filepath = currentdir + "/data/" + filename
 
         filename = path(filepath)
         if not filename.exists():
-            print(" file doesn't exist ")
+            print("-- file doesn't exist ")
             return pd.DataFrame() # if file not found return an empty dataframe
         else:
-            print(" found file ")
-            data = pd.read_csv(filename)
-            print("done")
+            print("-- found file ")
+            data = pd.read_csv(filename, delimiter=param_delimiter)
+            print("-- done")
             return data
 
 
@@ -201,7 +201,7 @@ class Preprocessing:
     
 def main():
     # entry point
-    data = Preprocessing.load_data_csv("road_pa_mov_linear.csv")
+    data = Preprocessing.load_data_csv("Mobiliteitstrend__per_rit_en_motief_18102022_113630.csv", ";")
     print(data)
     #Preprocessing.data_info(data)
 
