@@ -46,10 +46,11 @@ jupyter_contrib_nbextensions
 pandoc
 ```
 ## Try?
-You can choose --
+You can choose:
 - Clone this project via:
     ```bash
     git clone https://github.com/zfengyan/python-data-analysis.git
     ```
 - Download all the source files [here](https://github.com/zfengyan/python-data-analysis/releases/tag/DataAnalysisv1.0)
+
 And you are good to go.
