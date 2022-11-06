@@ -3,7 +3,9 @@
 
 This is the project for the TIL6022 python elective course @TU Delft. A basic python data analysis framework has been implemented (focusing on the data visualization). As for other lab sessions you can also refer to this [repo](https://github.com/kairuicui/TIL6010-LabAssignments) (kindly given by [@kairuicui](https://github.com/kairuicui))
 
-Note all of the content are under [GPLv3](https://github.com/zfengyan/python-data-analysis/blob/main/LICENSE) license. You are free to use.
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
+All of the content are under [GPLv3](https://github.com/zfengyan/python-data-analysis/blob/main/LICENSE) license. You are free to use.
 
 **Contributors**:
 
