@@ -1,7 +1,7 @@
 ## python-data-analysis
 [![Made withJupyter](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter)](https://jupyter.org/try)
 
-This is the project for the TIL6022 python elective course @TU Delft. A basic python data analysis framework has been implemented (focusing on the data visualization). As for other lab sessions you can also refer to this [repo](https://github.com/kairuicui/TIL6010-LabAssignments) (kindly given by [@kairuicui](https://github.com/kairuicui))
+This is the project for the TIL6022 python elective course @TU Delft. A basic python data analysis framework has been implemented (focusing on the data visualization). As for other lab sessions you can also refer to this [repo](https://github.com/kairuicui/TIL6010-LabAssignments) (kindly given by [@kairuicui](https://github.com/kairuicui)).
 
 Note all of the content are under [GPLv3](https://github.com/zfengyan/python-data-analysis/blob/main/LICENSE) license. You are free to use.
 
