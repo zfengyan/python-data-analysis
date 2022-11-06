@@ -15,11 +15,19 @@ Note all of the content are under [GPLv3](https://github.com/zfengyan/python-dat
 
 ## Layout
 
-**data**: where all datasets are stored.
+[data](https://github.com/zfengyan/python-data-analysis/tree/main/data): where all datasets are stored.
 
-**figure**: where all figures are stored.
+[figure](https://github.com/zfengyan/python-data-analysis/tree/main/figure): where all figures are stored.
 
-**report**: details and descriptions, contains one `.ipynb` file and its corresponding `html` file.
+[report](https://github.com/zfengyan/python-data-analysis/tree/main/report): details and descriptions, contains one `.ipynb` file and its corresponding `html` file.
+
+[data_analysis_1.ipynb](https://github.com/zfengyan/python-data-analysis/blob/main/data_analysis_1.ipynb): python script for this [dataset](https://github.com/zfengyan/python-data-analysis/blob/main/data/mobility.csv)  --  author: [@LuHan1113](https://github.com/LuHan1113)
+
+[data_analysis_2.ipynb](https://github.com/zfengyan/python-data-analysis/blob/main/data_analysis_2.ipynb): python script for this [dataset](https://github.com/zfengyan/python-data-analysis/blob/main/data/Mobiliteit__persoonskenmerken_20102022_134103.csv)  --  author: [@YingWu103](https://github.com/YingWu103)
+
+[data_analysis_3.ipynb](https://github.com/zfengyan/python-data-analysis/blob/main/data_analysis_3.ipynb): python script for this [dataset](https://github.com/zfengyan/python-data-analysis/blob/main/data/Mobiliteitstrend__per_rit_en_motief_18102022_113630.csv)  --  author: [@kairuicui](https://github.com/kairuicui)
+
+[Preprocessing.py](https://github.com/zfengyan/python-data-analysis/blob/main/Preprocessing.py): test preprocessing file.
 
 ## Prerequisite
 python 3
