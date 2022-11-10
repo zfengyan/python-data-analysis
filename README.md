@@ -51,6 +51,6 @@ You can choose:
     ```bash
     git clone https://github.com/zfengyan/python-data-analysis.git
     ```
-- Download all the source files [here](https://github.com/zfengyan/python-data-analysis/releases/tag/DataAnalysisv1.0)
+- Download all the source files [here](https://github.com/zfengyan/python-data-analysis/releases/tag/DataAnalysisv1.0).
 
 And you are good to go.
