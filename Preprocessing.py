@@ -31,6 +31,18 @@ class Preprocessing:
 
 
     @classmethod
+    def save_data_csv(cls, df:pd.DataFrame, filename:str):
+        print("-- saving dataset ...")
+        # get file path - this should work on Windows / linux / Mac
+        currentdir = os.path.join(os.path.dirname(__file__))
+        filepath = currentdir + "/data/" + filename
+
+        filename = path(filepath)
+        df.to_csv(filename, index=False) # index = False, exclude the row index
+        print("-- done")
+
+
+    @classmethod
     def data_info(cls, data:pd.DataFrame) -> None:
         # print some basic info of the dataset
 
